@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Harshit Tiwari's portfolio: computer science engineering student, web developer, and UI/UX enthusiast based in New Delhi, India." />
+  <meta name="theme-color" content="#f8f7f2" />
+  <title>Harshit Tiwari — Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#home"><span class="brand-icon">HT</span><span>Harshit Tiwari<span class="brand-period">.</span></span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+        <a class="nav-resume" href="mailto:tiwariharshit658@gmail.com">Say hello <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> COMPUTER SCIENCE · WEB DEVELOPMENT</p>
+          <h1>Hi, I'm Harshit.<br /><span class="serif-accent">I make the web</span><br />feel more human.</h1>
+          <p class="hero-intro">A computer science engineering student learning to build thoughtful, useful digital experiences — one project at a time.</p>
+          <div class="hero-actions"><a class="button button-dark" href="#projects">Explore my projects <span aria-hidden="true">↓</span></a><a class="button button-outline" href="mailto:tiwariharshit658@gmail.com">Contact me <span aria-hidden="true">↗</span></a></div>
+          <div class="hero-meta"><span class="open-dot"></span> Open to learning, collaboration &amp; opportunities <span class="meta-place">· New Delhi, India</span></div>
+        </div>
+        <div class="hero-visual">
+          <div class="visual-shape shape-back"></div><div class="visual-shape shape-front"></div>
+          <figure class="portfolio-portrait"><img src="assets/harshit-tiwari.jpeg" alt="Harshit Tiwari, computer science engineering student and web developer" fetchpriority="high" /><figcaption>DEVELOPER IN PROGRESS</figcaption></figure>
+          <div class="visual-sticker sticker-code">&lt;build /&gt;</div>
+          <div class="visual-sticker sticker-heart">made with <span aria-hidden="true">✳</span> curiosity</div>
+          <div class="visual-caption">DESIGN THINKING<br />MEETS CODE</div>
+        </div>
+      </div>
+      <div class="hero-bottom container"><span>SCROLL A LITTLE</span><span class="scroll-line"></span><span>01 — 04</span></div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="container about-layout">
+        <div class="section-aside"><span class="section-number">01</span><span class="aside-line"></span><span>ABOUT ME</span></div>
+        <div class="about-content">
+          <h2>Good work starts<br />with <em>curiosity.</em></h2>
+          <div class="about-columns">
+            <p>I'm pursuing a B.Tech in Computer Science Engineering at Raj Kumar Goel Institute of Technology. I enjoy the mix of logic and creativity that goes into building a good digital product.</p>
+            <p>My current focus is frontend and web development, with a growing interest in full-stack engineering. I learn by building, refining what I make, and staying curious about how technology can be more useful to people.</p>
+          </div>
+          <div class="education-card"><span class="education-icon">↗</span><div><strong>B.Tech · Computer Science Engineering</strong><span>Raj Kumar Goel Institute of Technology (RKGIT), Ghaziabad</span></div><span class="education-label">EDUCATION</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section">
+      <div class="container">
+        <div class="section-aside"><span class="section-number">02</span><span class="aside-line"></span><span>MY TOOLKIT</span></div>
+        <div class="skills-heading"><h2>Tools I'm learning<br />to make <em>ideas real.</em></h2><p>A practical mix of technologies and creative problem-solving. Always growing, always experimenting.</p></div>
+        <div class="skill-groups">
+          <article class="skill-group"><div class="skill-group-title"><span class="skill-symbol">01</span><h3>Web &amp; frontend</h3></div><div class="skill-pills"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Responsive design</span><span>React</span></div></article>
+          <article class="skill-group"><div class="skill-group-title"><span class="skill-symbol">02</span><h3>Programming &amp; data</h3></div><div class="skill-pills"><span>Python</span><span>SQL</span><span>Problem solving</span></div></article>
+          <article class="skill-group"><div class="skill-group-title"><span class="skill-symbol">03</span><h3>Design &amp; workflow</h3></div><div class="skill-pills"><span>UI/UX</span><span>Git</span><span>GitHub</span><span>Documentation</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects section">
+      <div class="container">
+        <div class="section-aside"><span class="section-number">03</span><span class="aside-line"></span><span>SELECTED PROJECTS</span></div>
+        <div class="projects-heading"><h2>Small steps.<br /><em>Real things built.</em></h2><p>A few hands-on projects from my OIBSIP web development practice.</p></div>
+        <div class="project-grid">
+          <article class="project-card project-card-one"><div class="project-art art-thermo"><span class="art-orbit"></span><span class="art-symbol">°</span><span class="art-caption">C ↔ F ↔ K</span></div><div class="project-info"><div class="project-meta"><span>01 / INTERACTIVE TOOL</span><span>HTML · CSS · JS</span></div><h3>Temperature Converter</h3><p>A responsive conversion tool for Celsius, Fahrenheit, and Kelvin with input validation.</p><a href="../03-Temperature-Converter/index.html" class="project-link">View project <span aria-hidden="true">↗</span></a></div></article>
+          <article class="project-card project-card-two"><div class="project-art art-calc"><div class="calc-screen">2 + 2 <span>= 4</span></div><div class="calc-keys"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div><div class="project-info"><div class="project-meta"><span>02 / WEB APP</span><span>HTML · CSS · JS</span></div><h3>Everyday Calculator</h3><p>A clean browser calculator with core arithmetic, keyboard input, and clear controls.</p><a href="../../Level 2/01-Calculator/index.html" class="project-link">View project <span aria-hidden="true">↗</span></a></div></article>
+          <article class="project-card project-card-three"><div class="project-art art-tribute"><span class="tribute-star">✳</span><span class="tribute-title">A life<br />in service</span><span class="tribute-caption">A. P. J. ABDUL KALAM</span></div><div class="project-info"><div class="project-meta"><span>03 / EDITORIAL PAGE</span><span>HTML · CSS</span></div><h3>Tribute to A. P. J. Abdul Kalam</h3><p>An editorial-style responsive tribute celebrating the Indian scientist, teacher, and president.</p><a href="../../Level 2/02-Tribute-Page/index.html" class="project-link">View project <span aria-hidden="true">↗</span></a></div></article>
+        </div>
+        <a class="github-link" href="https://github.com/tiwariharshit658-maker" target="_blank" rel="noopener noreferrer">More projects on GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="container contact-inner">
+        <div class="section-aside section-aside-light"><span class="section-number">04</span><span class="aside-line"></span><span>LET'S CONNECT</span></div>
+        <div class="contact-main"><p class="eyebrow">The next good thing starts with a conversation.</p><h2>Have a project,<br />question, or <em>idea?</em></h2><a class="contact-email" href="mailto:tiwariharshit658@gmail.com">tiwariharshit658@gmail.com <span aria-hidden="true">↗</span></a></div>
+        <div class="contact-flower" aria-hidden="true">✳</div>
+      </div>
+    </section>
+  </main>
+
+  <aside class="social-dock" aria-label="Social links">
+    <a href="https://github.com/tiwariharshit658-maker" target="_blank" rel="noopener noreferrer" aria-label="GitHub (opens in new tab)" title="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.53v-2.07c-3.1.68-3.76-1.32-3.76-1.32-.5-1.3-1.24-1.64-1.24-1.64-1.01-.7.08-.69.08-.69 1.12.08 1.71 1.15 1.71 1.15 1 .1.77 2.22 3.72 1.58.1-.73.39-1.23.7-1.51-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.43-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.05 1.15a10.6 10.6 0 0 1 5.55 0c2.12-1.44 3.05-1.15 3.05-1.15.61 1.54.23 2.68.11 2.96.72.78 1.15 1.78 1.15 3 0 4.29-2.61 5.23-5.1 5.51.4.35.75 1.02.75 2.06V22c0 .29.2.63.76.53A11.1 11.1 0 0 0 12 .9Z"/></svg></a>
+    <a href="https://www.linkedin.com/in/harshit-tiwari-84109925a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (opens in new tab)" title="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 3.5a2.2 2.2 0 1 1 0 4.4 2.2 2.2 0 0 1 0-4.4ZM3.3 9.5h3.8v11.2H3.3V9.5Zm6.1 0H13v1.5h.05a4.1 4.1 0 0 1 3.7-2c3.95 0 4.68 2.6 4.68 5.98v5.72h-3.8v-5.07c0-1.21-.02-2.77-1.69-2.77-1.7 0-1.96 1.32-1.96 2.68v5.16H9.4V9.5Z"/></svg></a>
+    <a href="https://www.instagram.com/h.arshitt_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram (opens in new tab)" title="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.2 2.5h9.6a4.7 4.7 0 0 1 4.7 4.7v9.6a4.7 4.7 0 0 1-4.7 4.7H7.2a4.7 4.7 0 0 1-4.7-4.7V7.2a4.7 4.7 0 0 1 4.7-4.7Zm0 1.9a2.8 2.8 0 0 0-2.8 2.8v9.6a2.8 2.8 0 0 0 2.8 2.8h9.6a2.8 2.8 0 0 0 2.8-2.8V7.2a2.8 2.8 0 0 0-2.8-2.8H7.2Zm4.8 3.1a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9Zm0 1.9a2.6 2.6 0 1 0 0 5.2 2.6 2.6 0 0 0 0-5.2Zm4.7-3.4a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2Z"/></svg></a>
+    <a href="mailto:tiwariharshit658@gmail.com" aria-label="Email Harshit" title="Email"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 5h17A1.5 1.5 0 0 1 22 6.5v11a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 17.5v-11A1.5 1.5 0 0 1 3.5 5Zm.1 2 8.4 6.1L20.4 7H3.6Zm16.4 10V9.4l-7.4 5.4a1 1 0 0 1-1.2 0L4 9.4V17h16Z"/></svg></a>
+  </aside>
+
+  <footer id="contact" class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand-block"><a class="brand" href="#home"><span class="brand-icon">HT</span><span>Harshit Tiwari<span class="brand-period">.</span></span></a><p>Learning, building, and making the next idea real.</p></div>
+      <div class="footer-contact"><h2>CONTACT</h2><a href="mailto:tiwariharshit658@gmail.com">tiwariharshit658@gmail.com</a><a href="tel:+918882530846">+91 88825 30846</a><span>New Delhi, India</span></div>
+      <div class="footer-social"><h2>AROUND THE WEB</h2><a href="https://github.com/tiwariharshit658-maker" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a><a href="https://www.linkedin.com/in/harshit-tiwari-84109925a" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a><a href="https://www.instagram.com/h.arshitt_/" target="_blank" rel="noopener noreferrer">Instagram · @h.arshitt_ <span>↗</span></a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year">2026</span> Harshit Tiwari</span><a href="#home">Back to the top ↑</a><span>Made with intention in New Delhi, India</span></div>
+  </footer>
+</body>
+</html>

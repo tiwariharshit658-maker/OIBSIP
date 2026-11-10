@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app"><section class="converter-card"><h1>Temperature Converter</h1><label for="temperature">Value</label><input id="temperature" type="number" step="any" placeholder="Enter temperature" /><label for="fromUnit">From</label><select id="fromUnit"><option value="c">Celsius (°C)</option><option value="f">Fahrenheit (°F)</option><option value="k">Kelvin (K)</option></select><button id="convertBtn">Convert</button><div class="result-box"><h2>Converted Values</h2><div id="result"></div><p id="error" class="error"></p></div></section></main>
+  <script src="script.js"></script>
+</body>
+</html>

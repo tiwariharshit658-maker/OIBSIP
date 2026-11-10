@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Meet Harshit Tiwari, a computer science engineering student building thoughtful, responsive web experiences." />
+  <meta name="theme-color" content="#101525" />
+  <title>Harshit Tiwari | Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Harshit Tiwari home"><span class="brand-mark"><img src="assets/harshit-tiwari.jpeg" alt="" /></span><span>harshit<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#focus">What I do</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="mailto:tiwariharshit658@gmail.com">Let's talk <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-grid-lines" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="availability-dot"></span> CSE student · Web developer</p>
+          <h1>Thoughtful code.<br /><span>Useful experiences.</span></h1>
+          <p class="hero-intro">I'm Harshit Tiwari — a computer science engineering student exploring web development, full-stack engineering, and UI/UX. I turn ideas into responsive, practical digital experiences.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#focus">Explore my focus <span aria-hidden="true">↓</span></a>
+            <a class="button button-quiet" href="https://github.com/tiwariharshit658-maker" target="_blank" rel="noopener noreferrer">Visit GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-location"><span aria-hidden="true">⌖</span> Based in New Delhi, India</div>
+        </div>
+        <div class="hero-art">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="code-card">
+            <div class="code-top"><span></span><span></span><span></span><small>building-with-purpose.js</small></div>
+            <div class="code-lines" aria-hidden="true">
+              <p><i>01</i><span class="code-purple">const</span> developer = {</p>
+              <p><i>02</i>&nbsp; name: <span class="code-green">'Harshit'</span>,</p>
+              <p><i>03</i>&nbsp; focus: [</p>
+              <p><i>04</i>&nbsp;&nbsp; <span class="code-green">'web development'</span>,</p>
+              <p><i>05</i>&nbsp;&nbsp; <span class="code-green">'full stack'</span>,</p>
+              <p><i>06</i>&nbsp;&nbsp; <span class="code-green">'UI/UX'</span></p>
+              <p><i>07</i>&nbsp; ],</p>
+              <p><i>08</i>&nbsp; learning: <span class="code-blue">true</span></p>
+              <p><i>09</i>};<span class="cursor">▍</span></p>
+            </div>
+            <div class="code-bottom"><span class="code-status"></span> always curious <span>⌘ K</span></div>
+          </div>
+          <div class="floating-chip chip-html"><span>&lt;/&gt;</span> HTML · CSS · JS</div>
+          <div class="floating-chip chip-design"><span>✳</span> Built for people</div>
+          <div class="art-caption">IDEAS → INTERFACES → IMPACT</div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> Scroll to explore</a>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="container about-layout">
+        <div class="section-kicker"><span>01</span><span> A little about me</span></div>
+        <div class="about-copy">
+          <h2>Learning by making<br />things that <em>matter.</em></h2>
+          <p>I'm pursuing a B.Tech in Computer Science Engineering at Raj Kumar Goel Institute of Technology. My focus is on turning a strong foundation in web technologies into useful projects and real-world engineering skills.</p>
+          <p>I care about clean interfaces, accessible experiences, and code that is easy to understand and improve. Right now, I'm growing my frontend practice while exploring how complete applications work from interface to data.</p>
+          <a class="inline-link" href="../02-Personal-Portfolio/index.html">Take a closer look at my portfolio <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="focus" class="focus section">
+      <div class="container">
+        <div class="focus-heading">
+          <div><div class="section-kicker"><span>02</span><span> What I'm building toward</span></div><h2>Curiosity, with<br />a practical side.</h2></div>
+          <p class="focus-note">A growing toolkit, shaped through hands-on practice and a steady habit of learning.</p>
+        </div>
+        <div class="focus-grid">
+          <article class="focus-card focus-card-a">
+            <span class="focus-index">01 / FRONTEND</span><div class="focus-icon" aria-hidden="true">&lt;/&gt;</div>
+            <h3>Interfaces that feel right.</h3><p>Responsive layouts, thoughtful interaction, and visual details that make a product easier to use.</p>
+            <div class="focus-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </article>
+          <article class="focus-card focus-card-b">
+            <span class="focus-index">02 / FULL STACK</span><div class="focus-icon" aria-hidden="true">{ }</div>
+            <h3>Connecting the pieces.</h3><p>Exploring how frontend, application logic, and data work together to solve practical problems.</p>
+            <div class="focus-tags"><span>Python</span><span>SQL</span><span>React</span></div>
+          </article>
+          <article class="focus-card focus-card-c">
+            <span class="focus-index">03 / WORKFLOW</span><div class="focus-icon" aria-hidden="true">↗</div>
+            <h3>Build, learn, improve.</h3><p>Using projects to practise problem-solving, version control, and maintainable development habits.</p>
+            <div class="focus-tags"><span>Git</span><span>GitHub</span><span>UI/UX</span></div>
+          </article>
+        </div>
+        <div class="stats-strip" aria-label="Areas of focus">
+          <div><strong data-count="3">0</strong><span>areas of focus</span></div>
+          <div><strong data-count="8">0</strong><span>tools &amp; technologies</span></div>
+          <div><strong data-count="1">0</strong><span>goal: keep learning</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-banner">
+      <div class="container contact-banner-inner">
+        <div><p class="eyebrow">Have an idea or opportunity?</p><h2>Let's make something<br />useful together.</h2></div>
+        <a class="button button-light" href="mailto:tiwariharshit658@gmail.com">Get in touch <span aria-hidden="true">↗</span></a>
+        <span class="banner-orbit" aria-hidden="true"></span>
+      </div>
+    </section>
+  </main>
+
+  <aside class="social-dock" aria-label="Social links">
+    <a href="https://github.com/tiwariharshit658-maker" target="_blank" rel="noopener noreferrer" aria-label="GitHub (opens in new tab)" title="GitHub">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.53v-2.07c-3.1.68-3.76-1.32-3.76-1.32-.5-1.3-1.24-1.64-1.24-1.64-1.01-.7.08-.69.08-.69 1.12.08 1.71 1.15 1.71 1.15 1 .1.77 2.22 3.72 1.58.1-.73.39-1.23.7-1.51-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.43-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.05 1.15a10.6 10.6 0 0 1 5.55 0c2.12-1.44 3.05-1.15 3.05-1.15.61 1.54.23 2.68.11 2.96.72.78 1.15 1.78 1.15 3 0 4.29-2.61 5.23-5.1 5.51.4.35.75 1.02.75 2.06V22c0 .29.2.63.76.53A11.1 11.1 0 0 0 12 .9Z"/></svg>
+    </a>
+    <a href="https://www.linkedin.com/in/harshit-tiwari-84109925a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (opens in new tab)" title="LinkedIn">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 3.5a2.2 2.2 0 1 1 0 4.4 2.2 2.2 0 0 1 0-4.4ZM3.3 9.5h3.8v11.2H3.3V9.5Zm6.1 0H13v1.5h.05a4.1 4.1 0 0 1 3.7-2c3.95 0 4.68 2.6 4.68 5.98v5.72h-3.8v-5.07c0-1.21-.02-2.77-1.69-2.77-1.7 0-1.96 1.32-1.96 2.68v5.16H9.4V9.5Z"/></svg>
+    </a>
+    <a href="https://www.instagram.com/h.arshitt_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram (opens in new tab)" title="Instagram">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.2 2.5h9.6a4.7 4.7 0 0 1 4.7 4.7v9.6a4.7 4.7 0 0 1-4.7 4.7H7.2a4.7 4.7 0 0 1-4.7-4.7V7.2a4.7 4.7 0 0 1 4.7-4.7Zm0 1.9a2.8 2.8 0 0 0-2.8 2.8v9.6a2.8 2.8 0 0 0 2.8 2.8h9.6a2.8 2.8 0 0 0 2.8-2.8V7.2a2.8 2.8 0 0 0-2.8-2.8H7.2Zm4.8 3.1a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9Zm0 1.9a2.6 2.6 0 1 0 0 5.2 2.6 2.6 0 0 0 0-5.2Zm4.7-3.4a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2Z"/></svg>
+    </a>
+    <a href="mailto:tiwariharshit658@gmail.com" aria-label="Email Harshit" title="Email">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 5h17A1.5 1.5 0 0 1 22 6.5v11a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 17.5v-11A1.5 1.5 0 0 1 3.5 5Zm.1 2 8.4 6.1L20.4 7H3.6Zm16.4 10V9.4l-7.4 5.4a1 1 0 0 1-1.2 0L4 9.4V17h16Z"/></svg>
+    </a>
+  </aside>
+
+  <footer id="contact" class="site-footer">
+    <div class="container footer-grid">
+    <div class="footer-intro"><a class="brand" href="#home"><span class="brand-mark"><img src="assets/harshit-tiwari.jpeg" alt="" /></span><span>harshit<span class="brand-dot">.</span></span></a><p>Building skills, projects, and a future in software engineering.</p><p class="footer-location">⌖ &nbsp;New Delhi, India</p></div>
+      <div class="footer-column"><h2>Connect</h2><a href="mailto:tiwariharshit658@gmail.com">tiwariharshit658@gmail.com</a><a href="tel:+918882530846">+91 88825 30846</a></div>
+      <div class="footer-column"><h2>Find me online</h2><a href="https://github.com/tiwariharshit658-maker" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a><a href="https://www.linkedin.com/in/harshit-tiwari-84109925a" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a><a href="https://www.instagram.com/h.arshitt_/" target="_blank" rel="noopener noreferrer">Instagram <span>↗</span></a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year">2026</span> Harshit Tiwari</span><a href="#home">Back to top ↑</a><span>Made with curiosity in New Delhi</span></div>
+  </footer>
+</body>
+</html>
